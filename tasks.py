@@ -1,3 +1,4 @@
+import ankiproject
 from invoke import task
 
 @task

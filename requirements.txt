@@ -2,6 +2,7 @@
 cached-property==1.5.1
 frozendict==1.2
 genanki==0.8.0
+invoke==1.4.1
 jinja2==3.0.0a1
 markdown==3.2.2
 markupsafe==2.0.0a1
