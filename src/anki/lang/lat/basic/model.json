@@ -1,0 +1,21 @@
+{
+  "id": 1602604601,
+  "name": "Latin - Basic",
+  "fields": [
+    "Front",
+    "Back"
+  ],
+  "cards": [
+    {
+      "name": "Recognize",
+      "front": "recognize-front.html",
+      "back": "recognize-back.html"
+    },
+    {
+      "name": "Recall",
+      "front": "recall-front.html",
+      "back": "recall-back.html"
+    }
+  ],
+  "styles": "styles.css"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 1983889866,
+  "name": "Latin - Cloze",
+  "fields": [
+    "Text",
+    "Extra"
+  ],
+  "cards": [
+    {
+      "name": "Cloze",
+      "front": "cloze-front.html",
+      "back": "cloze-back.html"
+    }
+  ],
+  "styles": "styles.css"
+}

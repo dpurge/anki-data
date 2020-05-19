@@ -1,0 +1,9 @@
+{
+    "markdown": [],
+    "templates": {
+        "Text": "Text.html",
+        "Extra": "Extra.html",
+        "ID": "ID.txt",
+        "Tags": "Tags.txt"
+    }
+}

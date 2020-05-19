@@ -1,0 +1,20 @@
+{{c1::Apakah::Czy}} {{c2::Anda::ty}} {{c3::suka minum::lubisz pić}} {{c4::kopi::kawę}}?
+{{c1::Saya::Ja}} {{c2::tidak suka::nie lubię}} {{c3::minum kopi::pić kawy}}.
+{{c1::Apakah::Czy}} {{c2::Anda suka::ty lubisz}} {{c3::makan daging::jeść mięso}}?
+{{c1::Saya tidak suka::Nie lubię}} {{c2::makan daging::jeść mięso}}. {{c1::Saya suka::Lubię}} {{c3::makan ikan::jeść ryby}}.
+Apakah {{c1::Anda suka::lubisz}} {{c2::makan mi::jeść makaron}}?
+{{c1::Saya tidak suka::Nie lubię}} {{c2::makan mi::jeść makaronu}}. {{c1::Saya suka::Lubię}} {{c3::makan nasi::jeść ryż}}.
+{{c1::Apakah Anda suka::Czy lubisz}} {{c2::minum bir::pić piwo}} {{c3::di Rumah Makan::w restauracji}} Pak Kumis?
+{{c1::Saya tidak suka::Nie lubię}} {{c2::minum bir::pić piwa}} {{c3::di rumah makan::w restauracji}}. Saya {{c2::minum bir::piję piwo}} {{c4::di rumah::w domu}}.
+Apakah {{c1::Anda mau::chcesz}} {{c2::minum teh::napić się herbaty}}?
+{{c1::Tidak::Nie}}. {{c2::Terima kasih::Dziękuję}}. {{c3::Saya tidak suka::Nie lubię}} {{c4::minum teh::pić herbaty}}.
+{{c1::Saya mau minum::Chciałbym sie napić}} {{c2::kopi manis::kawy z cukrem}} {{c3::saja::tylko}}.
+{{c1::Saya tidak bisa minum::Nie piję}} {{c2::kopi manis::kawy z cukrem}}.
+{{c1::O begitu::Rozumiem}}. Apakah {{c2::Anda bisa makan::jesz}} {{c3::tahu::tofu}}?
+{{c1::Oh?::O!}} {{c2::Saya kira::Myślałem, że}} {{c3::Anda tidak suka::nie lubisz}} {{c4::makan tahu::jeść tofu}}!
+{{c1::Apa kamu mau::Czy chcesz}} {{c2::minum teh::napić się herbaty}}? (nieformalnie)
+{{c1::Nggak::Nie}}. {{c2::Makasih::Dziękuję}}. {{c1::Aku nggak suka::Nie lubię}} {{c3::minum teh::pić herbaty}}. (nieformalnie)
+{{c1::Aku kepingin minum::Chciałbym się napić}} {{c2::kopi manis::kawy z cukrem}} {{c3::aja::tylko}}. (nieformalnie)
+{{c1::Aku nggak bisa minum::Nie piję}} {{c2::kopi manis::kawy z cukrem}}. (nieformalnie)
+{{c1::O gitu::Rozumiem}}. {{c2::Apa kamu bisa makan::Czy jesz}} {{c3::tahu::tofu}}? (nieformalnie)
+{{c1::Hah::Co}}? {{c2::Aku kira::Myślałem, że}} {{c3::kamu nggak suka::nie lubisz}} {{c4::makan tahu::jeść tofu}}.

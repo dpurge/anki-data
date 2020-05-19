@@ -1,0 +1,8 @@
+Selamat {{c1::pagi::poranek}}!
+Selamat {{c1::siang::południe}}!
+Selamat {{c1::sore::wieczór}}!
+Selamat {{c1::malam::noc}}!
+{{c1::Terima kasih::Dziękuję}}.
+{{c1::Mau::Idziesz}} {{c2::ke mana::dokąd}}?
+{{c1::Dari mana::Skąd (idziesz)}}?
+{{c1::Mau::Idziesz}} {{c2::ke mana::dokąd}}, {{c3::Bu::proszę pani}}?

@@ -1,0 +1,17 @@
+{
+  "id": 1983889866,
+  "name": "Indonesian - Cloze",
+  "type": "cloze",
+  "fields": [
+    "Text",
+    "Extra"
+  ],
+  "templates": [
+    {
+      "name": "Cloze",
+      "qfmt": "cloze-qfmt.html",
+      "afmt": "cloze-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
