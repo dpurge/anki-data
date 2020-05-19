@@ -8,13 +8,13 @@
   "cards": [
     {
       "name": "Recognize",
-      "front": "recognize-front.html",
-      "back": "recognize-back.html"
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
     },
     {
       "name": "Recall",
-      "front": "recall-front.html",
-      "back": "recall-back.html"
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
     }
   ],
   "styles": "styles.css"

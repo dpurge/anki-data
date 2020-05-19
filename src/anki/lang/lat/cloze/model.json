@@ -8,8 +8,8 @@
   "cards": [
     {
       "name": "Cloze",
-      "front": "cloze-front.html",
-      "back": "cloze-back.html"
+      "qfmt": "cloze-qfmt.html",
+      "afmt": "cloze-afmt.html"
     }
   ],
   "styles": "styles.css"
