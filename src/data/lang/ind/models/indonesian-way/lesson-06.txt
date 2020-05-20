@@ -1,0 +1,18 @@
+{{c1::Saya mau makan::Chcę zjeść}} {{c2::di Rumah Makan Garuda::w restauracji "Garuda"}}.
+Santi {{c1::akan pergi::ma zamiar iść}} {{c2::ke Mesjid An-Nur::do meczetu An-Nur}}.
+Apakah {{c1::Anda bisa pergi::możesz pójść}} {{c2::ke gedung administrasi::do budynku administracji}}?
+Apa {{c1::kamu suka tinggal::lubisz mieszkać}} {{c2::di Jalan Kesambi::na ulicy Kesambi}}?
+{{c1::Pak Purba::Pan Purba}} {{c2::di toko buku sekarang::jest teraz w księgarni}}.
+Apakah {{c1::mesjid::meczet}} {{c2::jauh dari sini::jest daleko stąd}}?
+Apakah {{c1::Inggris jauh dari Belanda::Anglia jest daleko od Niderlandów}}?
+Apakah {{c1::Toko Buku Gramedia::księgarnia Gramedia}} {{c2::jauh dari pusat kota::jest daleko od centrum miasta}}?
+Apakah {{c1::Toko Matahari::sklep Matahari}} {{c2::jauh dari kampus Universitas Andalas::jest daleko od kampusu uniwersytetu Andalas}}?
+{{c1::Di mana::Gdzie jest}} Flores?
+Flores {{c1::di Indonesia::w Indonezji}}, {{c2::tidak jauh dari Timor::niedaleko od Timoru}}.
+Pasar Legi {{c1::di depan kantor pos::naprzeciwko poczty}} {{c2::tidak jauh dari Restoran Sudimono::niedaleko restauracji Sudimono}}.
+{{c1::Perpustakaan pusat::Biblioteka centralna}} {{c2::di samping gedung imigrasi::obok budynku imigracji}} {{c3::di dekat Universitas Nasional::blisko Uniwersytetu Narodowego}}.
+{{c1::Toko Buku Gramedia::Księgarnia Gramedia}} {{c2::di samping Toko Ramai::jest obok sklepu Ramai}} {{c3::di Jalan Kartini::na ulicy Kartini}}.
+{{c1::Rumah Pak Utomo::dom pana Utomo}} {{c2::di Jalan Toba::jest na ulicy Toba}}, {{c3::di samping sekolah::obok szkoły}} {{c4::di belakang pasar pusat::z tyłu rynku centralnego}}.
+{{c1::Restoran Cirebon::Restauracja Cirebon}} {{c2::di Jalan Malioboro::jest na ulicy Malioboro}}, {{c3::di depan Pasar Beringharjo::naprzeciw bazaru Beringharjo}}, {{c4::tidak jauh dari Hotel Mutiara::niedaleko hotelu Mutiara}}.
+Shanghai {{c1::di antara Hong Kong dan Beijing::jest pomiędzy Hongkongiem i Pekinem}}.
+{{c1::Di mana::Gdzie jest}} {{c2::pasar yang besar::duży bazar}}?

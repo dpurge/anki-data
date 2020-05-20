@@ -1,0 +1,15 @@
+{{c1::Ini::To jest}} Erna.
+{{c1::Saya::Ja jestem}} Paulus.
+Anda {{c1::dari Arab Saudi::z Arabii Saudyjskiej}}?
+Saya {{c1::tinggal::mieszkam}} {{c2::di Jakarta::w Dżakarcie}}.
+{{c1::Siapa nama Anda::Jak się nazywasz}}?
+{{c1::Apa kabar::Co słychać}}?
+{{c1::Anda berasal::Ty pochodzisz}} {{c2::dari mana::skąd}}?
+Apakah Anda suka makan {{c1::nasi atau kentang::ryż czy ziemniaki}}?
+Apakah {{c1::Anda mau tinggal::chcesz mieszkać}} {{c2::di Yogya atau di Solo::w Jogjakarcie czy Solo}}?
+Apakah {{c1::Anda akan pergi::chcesz iść}} {{c2::ke warung atau mal::do sklepiku czy centrum handlowego}}?
+Apa {{c1::kamu suka::lubisz}} {{c2::kopi atau teh::kawę czy herbatę}}?
+Apakah Anda suka {{c1::Jepang, Cina atau Filipina::Japonię, Chiny czy Filipiny}}?
+Apa {{c1::kamu mau::chcesz iść}} {{c2::ke rumah sakit atau ke hotel::do szpitala czy do hotelu}}?
+{{c1::Sekarang::Teraz}} Anda mau {{c2::ke mana::dokąd}}?
+Kamu mau {{c1::ke mana::dokąd}} {{c2::sekarang::teraz}}?

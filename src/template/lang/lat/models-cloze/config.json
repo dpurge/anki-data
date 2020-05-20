@@ -1,9 +1,9 @@
 {
     "markdown": [],
     "templates": {
-        "Front": "Front.html",
-        "Back": "Back.html",
         "ID": "ID.txt",
+        "Text": "Text.html",
+        "Extra": "Extra.html",
         "Tags": "Tags.txt"
     }
 }

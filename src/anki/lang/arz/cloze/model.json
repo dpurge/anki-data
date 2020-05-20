@@ -1,0 +1,17 @@
+{
+  "id": 2131364521,
+  "name": "Egyptian Arabic - Cloze",
+  "type": "cloze",
+  "fields": [
+    "Text",
+    "Extra"
+  ],
+  "templates": [
+    {
+      "name": "Cloze",
+      "qfmt": "cloze-qfmt.html",
+      "afmt": "cloze-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}

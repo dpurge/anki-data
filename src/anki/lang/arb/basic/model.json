@@ -1,0 +1,22 @@
+{
+  "id": 1428728583,
+  "name": "Modern Standard Arabic - Basic",
+  "type": "front-back",
+  "fields": [
+    "Front",
+    "Back"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
