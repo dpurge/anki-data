@@ -4,5 +4,9 @@
     text-align: center;
     color: black;
     background-color: white;
-   }
-   
+}
+
+.text-indonesian {
+    font-size: 120%;
+    color: #660000;
+}
