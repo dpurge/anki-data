@@ -8,8 +8,9 @@
    
    .cloze {
     font-weight: bold;
-    color: blue;
+    color: #660000;
    }
+
    .nightMode .cloze {
     color: lightblue;
    }
