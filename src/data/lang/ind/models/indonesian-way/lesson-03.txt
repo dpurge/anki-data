@@ -1,7 +1,7 @@
-Selamat {{c1::pagi::poranek}}!
-Selamat {{c1::siang::południe}}!
-Selamat {{c1::sore::wieczór}}!
-Selamat {{c1::malam::noc}}!
+{{c1::Selamat pagi::Dzień dobry}}! (od świtu do 11:30)
+{{c1::Selamat siang::Dzień dobry}}! (od 11:30 do 15:30)
+{{c1::Selamat sore::Dobry wieczór}}! (od 15:30 do zmroku)
+{{c1::Selamat malam::Dobranoc}}! (od zmroku do świtu)
 {{c1::Terima kasih::Dziękuję}}.
 {{c1::Mau::Idziesz}} {{c2::ke mana::dokąd}}?
 {{c1::Dari mana::Skąd (idziesz)}}?

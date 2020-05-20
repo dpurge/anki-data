@@ -1,7 +1,7 @@
 {{c1::Ini::To jest}} Erna.
 {{c1::Saya::Ja jestem}} Paulus.
 Anda {{c1::dari Arab Saudi::z Arabii Saudyjskiej}}?
-Saya {{c1::tinggal::mieszkam}} {{c2::di Jakarta::w Dżakarcie}}.
+{{c1::Saya tinggal::Mieszkam}} {{c2::di Jakarta::w Dżakarcie}}.
 {{c1::Siapa nama Anda::Jak się nazywasz}}?
 {{c1::Apa kabar::Co słychać}}?
 {{c1::Anda berasal::Ty pochodzisz}} {{c2::dari mana::skąd}}?
