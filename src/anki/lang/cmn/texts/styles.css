@@ -14,3 +14,17 @@
 .nightMode .cloze {
     color: lightblue;
 }
+
+.text {
+    font-size: 120%;
+    color: #660000;
+}
+
+.transcription {
+    color: #000033;
+}
+
+.notes {
+    color: #663300;
+    font-style: italic;
+}

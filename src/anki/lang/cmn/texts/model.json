@@ -1,0 +1,18 @@
+{
+  "id": 2070238153,
+  "name": "Mandarin Chinese - Texts",
+  "type": "cloze",
+  "fields": [
+    "Text",
+    "Transcription",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Text",
+      "qfmt": "text-fmt.html",
+      "afmt": "text-fmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}

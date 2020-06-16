@@ -1,0 +1,10 @@
+{
+    "markdown": ["Text", "Transcription"],
+    "templates": {
+        "ID": "ID.txt",
+        "Text": "Text.html",
+        "Transcription": "Transcription.html",
+        "Notes": "Notes.html",
+        "Tags": "Tags.txt"
+    }
+}
