@@ -5,29 +5,22 @@ from ankiproject import AnkiPackage, AnkiDeck, AnkiNote
 def get_anki_packages(src_dir, out_dir):
 
     # ARB
-    # yield AnkiPackage (
-    #     filename = os.path.join(out_dir, 'language', 'modern-standard-arabic.apkg'),
-    #     deck = AnkiDeck(
-    #             id = 1706626659,
-    #             name = 'Language::Modern Standard Arabic',
-    #             notes = [
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'basic', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'arb', 'vocabulary')
-    #                     ]
-    #                 ),
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'cloze', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'arb', 'models-cloze', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'arb', 'models')
-    #                     ]
-    #                 )
-    #             ]
-    #         )
-    #     )
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'modern-standard-arabic.apkg'),
+        deck = AnkiDeck(
+                id = 1706626659,
+                name = 'Language::Modern Standard Arabic',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'Italki', 'vocabulary-basic')
+                        ]
+                    )
+                ]
+            )
+        )
 
     # ARZ
     # yield AnkiPackage (

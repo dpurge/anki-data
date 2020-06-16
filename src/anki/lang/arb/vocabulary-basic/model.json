@@ -1,10 +1,12 @@
 {
   "id": 1428728583,
-  "name": "Modern Standard Arabic - Basic",
+  "name": "Modern Standard Arabic - Basic Vocabulary",
   "type": "front-back",
   "fields": [
-    "Front",
-    "Back"
+    "Phrase",
+    "Transcription",
+    "Translation",
+    "Notes"
   ],
   "templates": [
     {

@@ -2,8 +2,10 @@
     "markdown": [],
     "templates": {
         "ID": "ID.txt",
-        "Front": "Front.html",
-        "Back": "Back.html",
+        "Phrase": "Phrase.html",
+        "Transcription": "Transcription.html",
+        "Translation": "Translation.html",
+        "Notes": "Notes.html",
         "Tags": "Tags.txt"
     }
 }
