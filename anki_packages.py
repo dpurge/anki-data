@@ -12,7 +12,7 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Modern Standard Arabic',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'arb', 'Italki', 'vocabulary-basic')
@@ -80,29 +80,22 @@ def get_anki_packages(src_dir, out_dir):
         )
 
     # IND
-    # yield AnkiPackage (
-    #     filename = os.path.join(out_dir, 'language', 'indonesian.apkg'),
-    #     deck = AnkiDeck(
-    #             id = 1780195254,
-    #             name = 'Language::Indonesian',
-    #             notes = [
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'basic', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'ind', 'vocabulary-basic', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'ind', 'vocabulary')
-    #                     ]
-    #                 ),
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'cloze', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'ind', 'models-cloze', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'ind', 'models')
-    #                     ]
-    #                 )
-    #             ]
-    #         )
-    #     )
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'indonesian.apkg'),
+        deck = AnkiDeck(
+                id = 1780195254,
+                name = 'Language::Indonesian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ind', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
 
     # LAT
     # yield AnkiPackage (
@@ -113,3 +106,21 @@ def get_anki_packages(src_dir, out_dir):
     #             notes = []
     #         )
     #     )
+
+    # VIE
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'vietnamese.apkg'),
+        deck = AnkiDeck(
+                id = 1879426651,
+                name = 'Language::Vietnamese',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'vie', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'vie', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'vie', 'colloquial-2012', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )

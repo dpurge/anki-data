@@ -1,0 +1,24 @@
+{
+  "id": 1428728583,
+  "name": "Modern Standard Arabic - Vocabulary",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Transcription",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
