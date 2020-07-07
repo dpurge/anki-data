@@ -1,10 +1,12 @@
 {
-  "id": 1428728583,
-  "name": "Modern Standard Arabic - Vocabulary",
+  "id": 1188198898,
+  "name": "Modern Standard Arabic - Noun Vocabulary",
   "type": "front-back",
   "fields": [
-    "Phrase",
-    "Transcription",
+    "PhraseSg",
+    "PhrasePl",
+    "TranscriptionSg",
+    "TranscriptionPl",
     "Translation",
     "Notes"
   ],

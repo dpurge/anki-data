@@ -1,0 +1,1 @@
+{{PhraseSg}} {{PhrasePl}} {{TranscriptionSg}} {{TranscriptionPl}} {{Translation}}
