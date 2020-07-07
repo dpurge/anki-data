@@ -15,8 +15,9 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-basic')
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin', 'vocabulary-basic'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-basic'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic')
                         ]
                     ),
                     AnkiNote(
