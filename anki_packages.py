@@ -17,14 +17,16 @@ def get_anki_packages(src_dir, out_dir):
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin', 'vocabulary-basic'),
                             os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-basic'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic')
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-basic')
                         ]
                     ),
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-nouns', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-nouns', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-nouns')
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-nouns'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-nouns')
                         ]
                     )
                 ]
