@@ -90,6 +90,8 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # FAS
+
     # IND
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'indonesian.apkg'),
