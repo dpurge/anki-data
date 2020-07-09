@@ -1,0 +1,24 @@
+{
+  "id": 1321401379,
+  "name": "Farsi - Vocabulary",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Transcription",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
