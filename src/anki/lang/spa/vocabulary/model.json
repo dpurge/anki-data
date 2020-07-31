@@ -1,0 +1,23 @@
+{
+  "id": 2093417286,
+  "name": "Spanish - Vocabulary",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}

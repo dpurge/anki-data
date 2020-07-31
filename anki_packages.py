@@ -58,6 +58,42 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # BUL
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'bulgarian.apkg'),
+        deck = AnkiDeck(
+                id = 1440911993,
+                name = 'Language::Bulgarian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'bul', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'bul', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'bul', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # CES
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'czech.apkg'),
+        deck = AnkiDeck(
+                id = 1083078907,
+                name = 'Language::Czech',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ces', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ces', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ces', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # CMN
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'mandarin-chinese.apkg'),
@@ -90,6 +126,60 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # DAN
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'danish.apkg'),
+        deck = AnkiDeck(
+                id = 1651997480,
+                name = 'Language::Danish',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'dan', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'dan', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'dan', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # DEU
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'german.apkg'),
+        deck = AnkiDeck(
+                id = 1463683857,
+                name = 'Language::German',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'deu', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'deu', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'deu', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # ELL
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'modern-greek.apkg'),
+        deck = AnkiDeck(
+                id = 1900654315,
+                name = 'Language::Modern Greek',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ell', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ell', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ell', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # FAS
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'farsi.apkg'),
@@ -103,6 +193,96 @@ def get_anki_packages(src_dir, out_dir):
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'fas', 'alavi-lorenz', 'vocabulary'),
                             os.path.join(src_dir, 'data', 'lang', 'fas', 'colloquial-2011', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # FRA
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'french.apkg'),
+        deck = AnkiDeck(
+                id = 1490255054,
+                name = 'Language::French',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'fra', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'fra', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'fra', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # GRC
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'ancient-greek.apkg'),
+        deck = AnkiDeck(
+                id = 2089318160,
+                name = 'Language::Ancient Greek',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'grc', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'grc', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'grc', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # HEB
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'hebrew.apkg'),
+        deck = AnkiDeck(
+                id = 1977982198,
+                name = 'Language::Hebrew',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'heb', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'heb', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'heb', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # HIN
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'hindi.apkg'),
+        deck = AnkiDeck(
+                id = 1675774097,
+                name = 'Language::Hindi',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'hin', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'hin', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'hin', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # HUN
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'hungarian.apkg'),
+        deck = AnkiDeck(
+                id = 1885354038,
+                name = 'Language::Hungarian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'hun', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'hun', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'hun', '___', 'vocabulary')
                         ]
                     )
                 ]
@@ -129,15 +309,185 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # ITA
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'italian.apkg'),
+        deck = AnkiDeck(
+                id = 1500977626,
+                name = 'Language::Italian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ita', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ita', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ita', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # LAT
-    # yield AnkiPackage (
-    #     filename = os.path.join(out_dir, 'language', 'latin.apkg'),
-    #     deck = AnkiDeck (
-    #             id = 1228695891,
-    #             name = 'Language::Latin',
-    #             notes = []
-    #         )
-    #     )
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'latin.apkg'),
+        deck = AnkiDeck(
+                id = 1228695891,
+                name = 'Language::Latin',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'lat', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'lat', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'lat', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # LIT
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'lithuanian.apkg'),
+        deck = AnkiDeck(
+                id = 1808985328,
+                name = 'Language::Lithuanian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'lit', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'lit', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'lit', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # NLD
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'dutch.apkg'),
+        deck = AnkiDeck(
+                id = 1338690685,
+                name = 'Language::Dutch',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'nld', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'nld', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'nld', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # RON
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'romanian.apkg'),
+        deck = AnkiDeck(
+                id = 1188298127,
+                name = 'Language::Romanian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ron', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ron', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ron', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # RUS
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'russian.apkg'),
+        deck = AnkiDeck(
+                id = 2116971379,
+                name = 'Language::Russian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'rus', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'rus', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'rus', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # SPA
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'spanish.apkg'),
+        deck = AnkiDeck(
+                id = 1659435005,
+                name = 'Language::Spanish',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'spa', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'spa', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'spa', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # SRP
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'serbian.apkg'),
+        deck = AnkiDeck(
+                id = 1756731000,
+                name = 'Language::Serbian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'srp', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'srp', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'srp', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # TUR
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'turkish.apkg'),
+        deck = AnkiDeck(
+                id = 1547350583,
+                name = 'Language::Turkish',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'tur', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'tur', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'tur', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # UKR
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'ukrainian.apkg'),
+        deck = AnkiDeck(
+                id = 1783697648,
+                name = 'Language::Ukrainian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ukr', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'ukr', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'ukr', '___', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
 
     # VIE
     yield AnkiPackage (
