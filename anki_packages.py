@@ -34,29 +34,29 @@ def get_anki_packages(src_dir, out_dir):
         )
 
     # ARZ
-    # yield AnkiPackage (
-    #     filename = os.path.join(out_dir, 'language', 'egyptian-arabic.apkg'),
-    #     deck = AnkiDeck(
-    #             id = 1851605761,
-    #             name = 'Language::Egyptian Arabic',
-    #             notes = [
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'basic', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'arz', 'vocabulary-basic', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'arz', 'vocabulary')
-    #                     ]
-    #                 ),
-    #                 AnkiNote(
-    #                     model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'cloze', 'model.json'),
-    #                     template = os.path.join(src_dir, 'template', 'lang', 'arz', 'models-cloze', 'config.json'),
-    #                     data = [
-    #                         os.path.join(src_dir, 'data', 'lang', 'arz', 'models')
-    #                     ]
-    #                 )
-    #             ]
-    #         )
-    #     )
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'egyptian-arabic.apkg'),
+        deck = AnkiDeck(
+                id = 1851605761,
+                name = 'Language::Egyptian Arabic',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'vocabulary-basic', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'arz', 'vocabulary-basic', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'arz', 'kallimni-arabi-bishweesh', 'vocabulary')
+                        ]
+                    )#,
+                    # AnkiNote(
+                    #     model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'cloze', 'model.json'),
+                    #     template = os.path.join(src_dir, 'template', 'lang', 'arz', 'models-cloze', 'config.json'),
+                    #     data = [
+                    #         os.path.join(src_dir, 'data', 'lang', 'arz', 'models')
+                    #     ]
+                    # )
+                ]
+            )
+        )
 
     # CMN
     yield AnkiPackage (

@@ -1,1 +1,1 @@
-{{Arabic}} {{Translation}}
+{{Phrase}} {{Transcription}} {{Translation}}
