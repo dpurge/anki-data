@@ -6,6 +6,10 @@ Store data in various formats, apply templates, render markdown, use images, sou
 
 All files use `utf-8` encoding.
 
+Language codes are three-letter [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data) language codes.
+
+The script codes are four-letter [ISO 15924](https://en.wikipedia.org/wiki/ISO_15924) script codes.
+
 ## Setup
 
 ```powershell
