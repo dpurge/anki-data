@@ -155,7 +155,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'deu', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'deu', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'deu', '___', 'vocabulary')
+                            os.path.join(src_dir, 'data', 'lang', 'deu', 'tematyczny-9000')
                         ]
                     )
                 ]
@@ -210,7 +210,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'fra', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'fra', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'fra', '___', 'vocabulary')
+                            os.path.join(src_dir, 'data', 'lang', 'fra', 'tematyczny-9000')
                         ]
                     )
                 ]
@@ -428,7 +428,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'spa', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'spa', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'spa', '___', 'vocabulary')
+                            os.path.join(src_dir, 'data', 'lang', 'spa', 'tematyczny-9000')
                         ]
                     )
                 ]
