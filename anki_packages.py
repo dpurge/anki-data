@@ -428,6 +428,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'spa', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'spa', 'vocabulary', 'config.json'),
                         data = [
+                            os.path.join(src_dir, 'data', 'lang', 'spa', 'frequency-2006'),
                             os.path.join(src_dir, 'data', 'lang', 'spa', 'tematyczny-9000')
                         ]
                     )
