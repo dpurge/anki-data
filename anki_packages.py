@@ -454,6 +454,24 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # TGK
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'tajiki.apkg'),
+        deck = AnkiDeck(
+                id = 1690278087,
+                name = 'Language::Tajiki',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'tgk', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'tgk', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'tgk', 'arzumanov-2019', 'vocabulary')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # TUR
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'turkish.apkg'),
