@@ -508,6 +508,24 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # UZB
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'uzbek.apkg'),
+        deck = AnkiDeck(
+                id = 1257256040,
+                name = 'Language::Uzbek',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'uzb', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'uzb', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'uzb', 'dla-sng')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # VIE
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'vietnamese.apkg'),
