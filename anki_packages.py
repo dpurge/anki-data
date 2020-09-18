@@ -327,6 +327,24 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # KAZ
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'kazakh.apkg'),
+        deck = AnkiDeck(
+                id = 1972920187,
+                name = 'Language::Kazakh',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'kaz', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'kaz', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'kaz', 'razgovornyj-legko')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # LAT
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'latin.apkg'),
