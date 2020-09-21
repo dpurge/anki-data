@@ -96,16 +96,17 @@ def get_anki_packages(src_dir, out_dir):
 
     # CMN
     yield AnkiPackage (
-        filename = os.path.join(out_dir, 'language', 'mandarin-chinese.apkg'),
+        filename = os.path.join(out_dir, 'language', 'mandarin-chinese-simplified.apkg'),
         deck = AnkiDeck(
                 id = 1973408674,
-                name = 'Language::Mandarin Chinese',
+                name = 'Language::Mandarin Chinese (Simplified)',
                 notes = [
                     AnkiNote(
                        model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary', 'model.json'),
                        template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
                        data = [
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary')
+                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary'),
+                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian')
                        ]
                     ),
                     AnkiNote(
