@@ -1,0 +1,24 @@
+{
+  "id": 1200955680,
+  "name": "Mandarin Chinese - Vocabulary (Traditional)",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Transcription",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}

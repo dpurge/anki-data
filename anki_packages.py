@@ -102,7 +102,7 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Mandarin Chinese (Simplified)',
                 notes = [
                     AnkiNote(
-                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary', 'model.json'),
+                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hans', 'model.json'),
                        template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
                        data = [
                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary'),
@@ -122,6 +122,23 @@ def get_anki_packages(src_dir, out_dir):
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'texts')
                         ]
+                    )
+                ]
+            )
+        )
+
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'mandarin-chinese-traditional.apkg'),
+        deck = AnkiDeck(
+                id = 2021001651,
+                name = 'Language::Mandarin Chinese (Traditional)',
+                notes = [
+                    AnkiNote(
+                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hant', 'model.json'),
+                       template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
+                       data = [
+                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'lingshailo-1955')
+                       ]
                     )
                 ]
             )
@@ -503,6 +520,24 @@ def get_anki_packages(src_dir, out_dir):
                         template = os.path.join(src_dir, 'template', 'lang', 'tur', 'vocabulary', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'tur', 'tematyczny-9000')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # UIG
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'uighur-cyrillic.apkg'),
+        deck = AnkiDeck(
+                id = 1102964059,
+                name = 'Language::Uighur (Cyrillic)',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'uig', 'vocabulary-cyrl', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'uig', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'uig', 'kasymova-2005')
                         ]
                     )
                 ]

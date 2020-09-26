@@ -1,0 +1,23 @@
+{
+  "id": 1989854501,
+  "name": "Uighur - Vocabulary (Cyrillic)",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
