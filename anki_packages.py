@@ -137,7 +137,8 @@ def get_anki_packages(src_dir, out_dir):
                        model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hant', 'model.json'),
                        template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
                        data = [
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'lingshailo-1955')
+                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'lingshailo-1955'),
+                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'isaenko-korotkov-sovetov')
                        ]
                     )
                 ]
