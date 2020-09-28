@@ -283,6 +283,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'hin', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'hin', 'vocabulary', 'config.json'),
                         data = [
+                            os.path.join(src_dir, 'data', 'lang', 'hin', 'kostina-2016),
                             os.path.join(src_dir, 'data', 'lang', 'hin', 'teach-yourself')
                         ]
                     )
