@@ -291,6 +291,24 @@ def get_anki_packages(src_dir, out_dir):
             )
         )
 
+    # HYE
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'armenian.apkg'),
+        deck = AnkiDeck(
+                id = 1081329769,
+                name = 'Language::Armenian',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'hye', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'hye', 'vocabulary', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'hye', 'sakayan-2007')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # HUN
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'hungarian.apkg'),
