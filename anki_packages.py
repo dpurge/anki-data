@@ -629,7 +629,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'script', 'cmn-bopo.apkg'),
         deck = AnkiDeck(
                 id = 1806089108,
-                name = 'Script::Bopomofo',
+                name = 'Script::Bopomofo (Mandarin Chinese)',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'script', 'bopo', 'model.json'),
@@ -654,6 +654,24 @@ def get_anki_packages(src_dir, out_dir):
                         template = os.path.join(src_dir, 'template', 'script', 'deva', 'hin', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'script', 'deva')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # JPAN
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'script', 'jpn-hira.apkg'),
+        deck = AnkiDeck(
+                id = 2026188063,
+                name = 'Script::Hiragana (Japanese)',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'script', 'hrkt', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'script', 'hrkt', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'script', 'jpan', 'hiragana')
                         ]
                     )
                 ]
