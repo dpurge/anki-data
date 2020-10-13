@@ -1,0 +1,25 @@
+{
+  "id": 1506940008,
+  "name": "Script - Thai",
+  "type": "front-back",
+  "fields": [
+    "Text",
+    "Transcription",
+    "IPA",
+    "Audio",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}

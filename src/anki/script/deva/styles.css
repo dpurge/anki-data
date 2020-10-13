@@ -1,0 +1,36 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.text {
+    font-size: 48px;
+    color: #660000;
+}
+
+.transcription {
+    color: #000033;
+    margin-top: 1em;
+}
+
+.ipa {
+    color: #333333;
+    margin-top: 1em;
+}
+
+.ipa:before {
+    content: "[";
+}
+
+.ipa:after {
+    content: "]";
+}
+
+.notes {
+    color: #663300;
+    font-style: italic;
+    margin-top: 1em;
+}

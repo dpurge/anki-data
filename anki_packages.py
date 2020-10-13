@@ -621,3 +621,59 @@ def get_anki_packages(src_dir, out_dir):
                 ]
             )
         )
+
+    # # # # #  S C R I P T  # # # # #
+
+    # BOPO
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'script', 'cmn-bopo.apkg'),
+        deck = AnkiDeck(
+                id = 1806089108,
+                name = 'Script::Bopomofo',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'script', 'bopo', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'script', 'bopo', 'cmn', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'script', 'bopo', 'zhuyin')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # DEVA
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'script', 'hin-deva.apkg'),
+        deck = AnkiDeck(
+                id = 1315098045,
+                name = 'Script::Devanagari (Hindi)',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'script', 'deva', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'script', 'deva', 'hin', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'script', 'deva')
+                        ]
+                    )
+                ]
+            )
+        )
+
+    # THAI
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'script', 'tha-thai.apkg'),
+        deck = AnkiDeck(
+                id = 1583324758,
+                name = 'Script::Thai',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'script', 'thai', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'script', 'thai', 'tha', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'script', 'thai')
+                        ]
+                    )
+                ]
+            )
+        )
