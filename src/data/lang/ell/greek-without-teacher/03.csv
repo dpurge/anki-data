@@ -1,79 +1,44 @@
 Phrase	Translation	Notes
-Ο	μηδέν
-
-1*	ένα
-
-2	δύο
-
-3*	τρία
-
-4*	τέσσερα
-
-5	πέντε
-
-6	έξι
-
-7	επτά ή εφτά
-
-8	οκτώ ή οχτώ
-
-9	εννέα ή εννιά
-
-10	δέκα
-
-11	έντεκα
-
-12	δώδεκα
-
-13*	δεκατρία
-
-14*	δεκατέσσερα
-
-15	δεκαπέντε
-
-16	δεκαέξι
-
-17	δεκαεφτά ή δεκαεπτά
-
-18	δεκαοκτώ ή δεκαοχτώ
-
-19	δεκαεννέα ή δεκαεννιά
-
-20	είκοσι
-21* είκοσι ένα 
-22 είκοσι δύο 
-23* είκοσι τρία 
-24* είκοσι τέσσερα
-
-25	είκοσι πέντε
-
-26	είκοσι έξη
-
-30	τριάντα
-
-35	τριάντα πέντε
-
-36	τριάντα έξι
-
-37	τριάντα επτά
-
-38	τριάντα οκτώ
-
-39	τριάντα εννιά
-
-40	σαράντα
-
-50	πενήντα
-
-60	εξήντα
-
-70	εβδομήντα
-
-80	ογδόντα
-
-90	ενενήντα
-
-100	εκατό
+μηδέν	zero
+ένα	jeden
+δύο	dwa
+τρία	trzy
+τέσσερα	cztery
+πέντε	pięć
+έξι	sześć
+επτά ή εφτά	siedem
+οκτώ ή οχτώ	osiem
+εννέα ή εννιά	dziewięć
+δέκα	dziesięć
+έντεκα	jedenaście
+δώδεκα	dwanaście
+δεκατρία	trzynaście
+δεκατέσσερα	czternaście
+δεκαπέντε	piętnaście
+δεκαέξι	szesnaście
+δεκαεφτά ή δεκαεπτά	siedemnaście
+δεκαοκτώ ή δεκαοχτώ	osiemnaście
+δεκαεννέα ή δεκαεννιά	dziewiętnaście
+είκοσι	dwadzieścia
+είκοσι ένα	dwadzieścia jeden
+είκοσι δύο	dwadzieścia dwa
+είκοσι τρία	dwadzieścia trzy
+είκοσι τέσσερα	dwadzieścia cztery
+είκοσι πέντε	dwadzieścia pięć
+είκοσι έξη	dwadzieścia sześć
+τριάντα	trzydzieści
+τριάντα πέντε	trzydzieści pięć
+τριάντα έξι	trzydzieści sześć
+τριάντα επτά	trzydzieści siedem
+τριάντα οκτώ	trzydzieści osiem
+τριάντα εννιά	trzydzieści dziewięć
+σαράντα	czterdzieści
+πενήντα	pięćdziesiąt
+εξήντα	sześćdziesiąt
+εβδομήντα	siedemdziesiąt
+ογδόντα	osiemdziesiąt
+ενενήντα	dziewięćdziesiąt
+εκατό	sto
 
 ακριβώς -o’clock
 
