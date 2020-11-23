@@ -1,9 +1,10 @@
 {
   "id": 1200955680,
-  "name": "Mandarin Chinese - Vocabulary (Traditional)",
+  "name": "Mandarin Chinese - ePub Vocabulary (Traditional)",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
     "Transcription",
     "Translation",
     "Notes"

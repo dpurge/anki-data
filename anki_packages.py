@@ -150,11 +150,11 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Mandarin Chinese (Traditional)',
                 notes = [
                     AnkiNote(
-                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hant', 'model.json'),
-                       template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
+                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'epub-hant', 'model.json'),
+                       template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                        data = [
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'lingshailo-1955'),
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'isaenko-korotkov-sovetov')
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'lingshailo-1955')
+                            # os.path.join(src_dir, 'data', 'lang', 'cmn', 'isaenko-korotkov-sovetov')
                        ]
                     )
                 ]
@@ -555,11 +555,11 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Turkish',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'tur', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'tur', 'vocabulary', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'tur', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'tur', 'guzev-2006'),
-                            os.path.join(src_dir, 'data', 'lang', 'tur', 'tematyczny-9000')
+                            os.path.join(src_dir, 'data', 'lang', 'tur', 'guzev-2006')
+                            # os.path.join(src_dir, 'data', 'lang', 'tur', 'tematyczny-9000')
                         ]
                     )
                 ]

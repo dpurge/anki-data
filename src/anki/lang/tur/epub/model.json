@@ -1,9 +1,11 @@
 {
   "id": 1211770808,
-  "name": "Turkish - Vocabulary",
+  "name": "Turkish - ePub Vocabulary",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
+    "Transcription",
     "Translation",
     "Notes"
   ],

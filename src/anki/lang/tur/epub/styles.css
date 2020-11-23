@@ -7,12 +7,17 @@
 }
 
 .phrase {
-    font-size: 180%;
+    font-size: 120%;
     color: #660000;
 }
 
 .transcription {
     color: #000033;
+}
+
+.grammar {
+    color: #0c0727;
+    font-style: bold;
 }
 
 .translation {
