@@ -1,9 +1,11 @@
 {
   "id": 2093417286,
-  "name": "Spanish - Vocabulary",
+  "name": "Spanish - ePub Vocabulary",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
+    "Transcription",
     "Translation",
     "Notes"
   ],

@@ -11,6 +11,15 @@
     color: #660000;
 }
 
+.transcription {
+    color: #000033;
+}
+
+.grammar {
+    color: #0c0727;
+    font-style: bold;
+}
+
 .translation {
     color: #000033;
 }

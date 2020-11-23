@@ -499,11 +499,11 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Spanish',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'spa', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'spa', 'vocabulary', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'spa', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'spa', 'aula'),
-                            os.path.join(src_dir, 'data', 'lang', 'spa', 'frequency-2006')# ,
+                            os.path.join(src_dir, 'data', 'lang', 'spa', 'aula')
+                            # os.path.join(src_dir, 'data', 'lang', 'spa', 'frequency-2006'),
                             # os.path.join(src_dir, 'data', 'lang', 'spa', 'tematyczny-9000')
                         ]
                     )
