@@ -11,22 +11,29 @@ def get_anki_packages(src_dir, out_dir):
                 id = 1706626659,
                 name = 'Language::Modern Standard Arabic',
                 notes = [
+                    # AnkiNote(
+                    #     model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
+                    #     template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
+                    #     data = [
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin', 'vocabulary-basic'),
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-basic'),
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic'),
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-basic')
+                    #     ]
+                    # ),
+                    # AnkiNote(
+                    #     model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-nouns', 'model.json'),
+                    #     template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-nouns', 'config.json'),
+                    #     data = [
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-nouns'),
+                    #         os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-nouns')
+                    #     ]
+                    # ),
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-basic', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin', 'vocabulary-basic'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-basic'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'italki', 'vocabulary-basic'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-basic')
-                        ]
-                    ),
-                    AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-nouns', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'arb', 'vocabulary-nouns', 'config.json'),
-                        data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'eckehard-schulz', 'vocabulary-nouns'),
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov', 'vocabulary-nouns')
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin-1992')
                         ]
                     )
                 ]
@@ -102,26 +109,34 @@ def get_anki_packages(src_dir, out_dir):
                 id = 1973408674,
                 name = 'Language::Mandarin Chinese (Simplified)',
                 notes = [
+                    # AnkiNote(
+                    #    model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hans', 'model.json'),
+                    #    template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
+                    #    data = [
+                    #        os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary'),
+                    #        os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian')
+                    #    ]
+                    # ),
+                    # AnkiNote(
+                    #    model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'models', 'model.json'),
+                    #    template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'models', 'config.json'),
+                    #    data = [
+                    #        os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'models')
+                    #    ]
+                    # ),
+                    # AnkiNote(
+                    #     model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'texts', 'model.json'),
+                    #     template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'texts', 'config.json'),
+                    #     data = [
+                    #         os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'texts')
+                    #     ]
+                    # )
+                    
                     AnkiNote(
-                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hans', 'model.json'),
-                       template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'vocabulary', 'config.json'),
-                       data = [
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary'),
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian')
-                       ]
-                    ),
-                    AnkiNote(
-                       model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'models', 'model.json'),
-                       template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'models', 'config.json'),
-                       data = [
-                           os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'models')
-                       ]
-                    ),
-                    AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'texts', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'cmn', 'texts', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'epub-hans', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'texts')
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'yang_jizhou-hanyu_jiaocheng-2008')
                         ]
                     )
                 ]
@@ -281,11 +296,11 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Hindi',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'hin', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'hin', 'vocabulary', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'hin', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'hin', 'kostina-2016'),
-                            os.path.join(src_dir, 'data', 'lang', 'hin', 'teach-yourself')
+                            os.path.join(src_dir, 'data', 'lang', 'hin', 'kostina-2016')
+                            # os.path.join(src_dir, 'data', 'lang', 'hin', 'teach-yourself')
                         ]
                     )
                 ]
@@ -336,14 +351,14 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Indonesian',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'ind', 'vocabulary', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'soravia-2002'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'colloquial-1994'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'demidiuk-sujai-hajartno'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'italki')
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'colloquial-indonesian-2002')
+                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'soravia-2002'),
+                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'demidiuk-sujai-hajartno'),
+                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary'),
+                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'italki')
                         ]
                     )
                 ]

@@ -1,0 +1,25 @@
+{
+  "id": 1319363688,
+  "name": "Mandarin Chinese - ePub Vocabulary (Simplified)",
+  "type": "front-back",
+  "fields": [
+    "Phrase",
+    "Grammar",
+    "Transcription",
+    "Translation",
+    "Notes"
+  ],
+  "templates": [
+    {
+      "name": "Recognize",
+      "qfmt": "recognize-qfmt.html",
+      "afmt": "recognize-afmt.html"
+    },
+    {
+      "name": "Recall",
+      "qfmt": "recall-qfmt.html",
+      "afmt": "recall-afmt.html"
+    }
+  ],
+  "styles": "styles.css"
+}
