@@ -354,11 +354,11 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'ind', 'epub', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'colloquial-indonesian-2002')
-                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'soravia-2002'),
-                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'demidiuk-sujai-hajartno'),
-                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary'),
-                            # os.path.join(src_dir, 'data', 'lang', 'ind', 'italki')
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'colloquial-indonesian-2002'),
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'soravia-2002'),
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'demidiuk-sujai-hajartno'),
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary'),
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'italki')
                         ]
                     )
                 ]
@@ -391,8 +391,8 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Kazakh',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'kaz', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'kaz', 'vocabulary', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'kaz', 'epub', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'kaz', 'razgovornyj-legko')
                         ]

@@ -1,9 +1,11 @@
 {
   "id": 2042753960,
-  "name": "Kazakh - Vocabulary",
+  "name": "Kazakh - ePub Vocabulary",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
+    "Transcription",
     "Translation",
     "Notes"
   ],
