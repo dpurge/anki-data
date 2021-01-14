@@ -357,8 +357,7 @@ def get_anki_packages(src_dir, out_dir):
                             os.path.join(src_dir, 'data', 'lang', 'ind', 'colloquial-indonesian-2002'),
                             os.path.join(src_dir, 'data', 'lang', 'ind', 'soravia-2002'),
                             os.path.join(src_dir, 'data', 'lang', 'ind', 'demidiuk-sujai-hajartno'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way', 'vocabulary'),
-                            os.path.join(src_dir, 'data', 'lang', 'ind', 'italki')
+                            os.path.join(src_dir, 'data', 'lang', 'ind', 'indonesian-way')
                         ]
                     )
                 ]
