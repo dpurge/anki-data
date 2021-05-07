@@ -4,6 +4,8 @@
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
+    "Transcription",
     "Translation",
     "Notes"
   ],

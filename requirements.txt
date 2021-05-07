@@ -1,4 +1,4 @@
--e git+https://github.com/dpurge/anki-project.git@40bcb7edc60590c05bbf58d672d156eb893d5c01#egg=ankiproject
+# -e git+https://github.com/dpurge/anki-project.git@40bcb7edc60590c05bbf58d672d156eb893d5c01#egg=ankiproject
 cached-property==1.5.1
 frozendict==1.2
 genanki==0.8.0
