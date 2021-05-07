@@ -1,59 +1,59 @@
-Phrase	Translation	Notes
-Здравей	Cześć; dzień dobry
-здравейте	Cześć; dzień dobry
-Здрасти	Cześć
-Добро утро	Dzień dobry
-Добър ден	Dzień dobry
-Добър вечер	Dobry wieczór
-Да ви представя	Chcę Panu przedstawić
-Да се запознаем	Poznajmy się
-Казвам се...	Nazywam się...
-Моето име е...	Mam na imię...
-Как се казваш?	Jak się nazywasz?
-учителка по руски език	nauczycielka języka rosyjskiego
-ученик (ученици)	uczeń (uczniowie)
-учениците	uczniowie	z rodzajnikiem określonym
-ученичка (ученички)	uczennica (uczennice)
-това	to
-от	od; z
-кой (коя, кое, кои)...	kto; który (która, które; którzy)...
-град	miasto
-столицата на България	stolica Bułgarii
-какъв (каква, какво, какви)	jaki (jaka, jakie, jacy)
-голям	duży
-зелен	zielony
-обръща се	zwraca się
-към	do; ku
-един (една, едно, едни)	jeden; jakiś (jedna, jedno, jacyś)
-момче (момчета)	chłopiec (chłopcy)
-московчанин (московчани)	moskwiczanin (moskwiczanie)
-много	bardzo
-тъмнокос	ciemnowłosy
-по народност	narodowości
-откъде	skąd
-сега	teraz
-живея в Москва	mieszkam w Moskwie
-в нашия клас	w naszej klasie
-Русия	Rosja
-руснак	Rosjanin
-руснаци	Rosjanie
-рускиня	Rosjanka
-рускини	Rosjanki
-България	Bułgaria
-българин (българи)	Bułgar (Bułgarzy)
-българка (българки)	Bułgarka (Bułgarki)
-Гърция	Grecja
-грък (гърци)	Grek (Grecy)
-гьркиня (гьркини)	Greczynka (Greczynki)
-Сърбия	Serbia
-сърбин (сърби)	Serb (Serbowie)
-сръбкиня (сръбкини)	Serbka (Serbki)
-Украйна	Ukraina
-украинец (украинци)	Ukrainiec (Ukraińcy)
-украинка (украинки)	Ukrainka (Ukrainki)
-Татария	Tataria
-татарин (татари)	Tatar (Tatarzy)
-татарка (татарки)	Tatarka (Tatarki)
-Армения	Armenia
-арменец (арменци)	Ormianin (Ormianie)
-арменка (арменки)	Ormianka (Ormianki)
+Phrase	Grammar	Transcription	Translation	Notes
+Здравей			Cześć; dzień dobry
+здравейте			Cześć; dzień dobry
+Здрасти			Cześć
+Добро утро			Dzień dobry
+Добър ден			Dzień dobry
+Добър вечер			Dobry wieczór
+Да ви представя			Chcę Panu przedstawić
+Да се запознаем			Poznajmy się
+Казвам се...			Nazywam się...
+Моето име е...			Mam na imię...
+Как се казваш?			Jak się nazywasz?
+учителка по руски език			nauczycielka języka rosyjskiego
+ученик (ученици)			uczeń (uczniowie)
+учениците			uczniowie	z rodzajnikiem określonym
+ученичка (ученички)			uczennica (uczennice)
+това			to
+от			od; z
+кой (коя, кое, кои)...			kto; który (która, które; którzy)...
+град			miasto
+столицата на България			stolica Bułgarii
+какъв (каква, какво, какви)			jaki (jaka, jakie, jacy)
+голям			duży
+зелен			zielony
+обръща се			zwraca się
+към			do; ku
+един (една, едно, едни)			jeden; jakiś (jedna, jedno, jacyś)
+момче (момчета)			chłopiec (chłopcy)
+московчанин (московчани)			moskwiczanin (moskwiczanie)
+много			bardzo
+тъмнокос			ciemnowłosy
+по народност			narodowości
+откъде			skąd
+сега			teraz
+живея в Москва			mieszkam w Moskwie
+в нашия клас			w naszej klasie
+Русия			Rosja
+руснак			Rosjanin
+руснаци			Rosjanie
+рускиня			Rosjanka
+рускини			Rosjanki
+България			Bułgaria
+българин (българи)			Bułgar (Bułgarzy)
+българка (българки)			Bułgarka (Bułgarki)
+Гърция			Grecja
+грък (гърци)			Grek (Grecy)
+гьркиня (гьркини)			Greczynka (Greczynki)
+Сърбия			Serbia
+сърбин (сърби)			Serb (Serbowie)
+сръбкиня (сръбкини)			Serbka (Serbki)
+Украйна			Ukraina
+украинец (украинци)			Ukrainiec (Ukraińcy)
+украинка (украинки)			Ukrainka (Ukrainki)
+Татария			Tataria
+татарин (татари)			Tatar (Tatarzy)
+татарка (татарки)			Tatarka (Tatarki)
+Армения			Armenia
+арменец (арменци)			Ormianin (Ormianie)
+арменка (арменки)			Ormianka (Ormianki)
