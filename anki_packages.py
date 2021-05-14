@@ -13,7 +13,7 @@ def get_anki_packages(src_dir, out_dir):
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'apc', 'vocabulary', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'apc', 'syrian-colloquial')
                         ]
