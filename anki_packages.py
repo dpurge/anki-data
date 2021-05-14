@@ -4,6 +4,24 @@ from ankiproject import AnkiPackage, AnkiDeck, AnkiNote
 
 def get_anki_packages(src_dir, out_dir):
 
+    # APC
+    yield AnkiPackage (
+        filename = os.path.join(out_dir, 'language', 'syrian-arabic.apkg'),
+        deck = AnkiDeck(
+                id = 1077206029,
+                name = 'Language::Syrian Arabic',
+                notes = [
+                    AnkiNote(
+                        model = os.path.join(src_dir, 'anki', 'lang', 'apc', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
+                        data = [
+                            os.path.join(src_dir, 'data', 'lang', 'apc', 'syrian-colloquial')
+                        ]
+                    )
+                ]
+            )
+        )
+
     # ARB
     yield AnkiPackage (
         filename = os.path.join(out_dir, 'language', 'modern-standard-arabic.apkg'),
@@ -30,7 +48,7 @@ def get_anki_packages(src_dir, out_dir):
                     #     ]
                     # ),
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'epub', 'model.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin-1992')
@@ -48,10 +66,10 @@ def get_anki_packages(src_dir, out_dir):
                 name = 'Language::Egyptian Arabic',
                 notes = [
                     AnkiNote(
-                        model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'vocabulary-basic', 'model.json'),
-                        template = os.path.join(src_dir, 'template', 'lang', 'arz', 'vocabulary-basic', 'config.json'),
+                        model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'vocabulary', 'model.json'),
+                        template = os.path.join(src_dir, 'template', 'lang', 'epub', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arz', 'kallimni-arabi-bishweesh', 'vocabulary')
+                            os.path.join(src_dir, 'data', 'lang', 'arz', 'kallimni-arabi-bishweesh')
                         ]
                     )#,
                     # AnkiNote(

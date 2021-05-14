@@ -1,9 +1,10 @@
 {
   "id": 1080269828,
-  "name": "Egyptian Arabic - Basic Vocabulary",
+  "name": "Egyptian Arabic - Vocabulary",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
     "Transcription",
     "Translation",
     "Notes"
