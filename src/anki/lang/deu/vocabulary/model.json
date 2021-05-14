@@ -1,9 +1,11 @@
 {
-  "id": 1124965588,
-  "name": "German - Vocabulary",
+  "id": 1341711713,
+  "name": "German - ePub Vocabulary",
   "type": "front-back",
   "fields": [
     "Phrase",
+    "Grammar",
+    "Transcription",
     "Translation",
     "Notes"
   ],
