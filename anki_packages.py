@@ -9,7 +9,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'syrian-arabic.apkg'),
         deck = AnkiDeck(
                 id = 1077206029,
-                name = 'Language::Syrian Arabic',
+                name = 'Language::Arabic::Syrian Arabic',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'apc', 'vocabulary', 'model.json'),
@@ -27,7 +27,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'modern-standard-arabic.apkg'),
         deck = AnkiDeck(
                 id = 1706626659,
-                name = 'Language::Modern Standard Arabic',
+                name = 'Language::Arabic::Modern Standard Arabic',
                 notes = [
                     # AnkiNote(
                     #     model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary-basic', 'model.json'),
@@ -63,7 +63,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'egyptian-arabic.apkg'),
         deck = AnkiDeck(
                 id = 1851605761,
-                name = 'Language::Egyptian Arabic',
+                name = 'Language::Arabic::Egyptian Arabic',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'arz', 'vocabulary', 'model.json'),
@@ -125,7 +125,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'mandarin-chinese-simplified.apkg'),
         deck = AnkiDeck(
                 id = 1973408674,
-                name = 'Language::Mandarin Chinese (Simplified)',
+                name = 'Language::Chinese::Mandarin Chinese (Simplified)',
                 notes = [
                     # AnkiNote(
                     #    model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hans', 'model.json'),
@@ -167,7 +167,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'mandarin-chinese-traditional.apkg'),
         deck = AnkiDeck(
                 id = 2021001651,
-                name = 'Language::Mandarin Chinese (Traditional)',
+                name = 'Language::Chinese::Mandarin Chinese (Traditional)',
                 notes = [
                     AnkiNote(
                        model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hant', 'model.json'),
