@@ -136,7 +136,9 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'cmn', 'vocabulary-hans', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'yang_jizhou-hanyu_jiaocheng-2008')
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary', 'threshold'),
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary', 'elementary'),
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian')
                         ]
                     )
                 ]
@@ -254,7 +256,7 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'fra', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'fra', 'tematyczny-9000')
+                            os.path.join(src_dir, 'data', 'lang', 'fra', 'mauger')
                         ]
                     )
                 ]
