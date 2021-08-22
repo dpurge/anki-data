@@ -51,7 +51,9 @@ def get_anki_packages(src_dir, out_dir):
                         model = os.path.join(src_dir, 'anki', 'lang', 'arb', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin-1992')
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'hassan-kurowski-1973'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'bagauddin-1992'),
+                            os.path.join(src_dir, 'data', 'lang', 'arb', 'kovalev-sharbatov')
                         ]
                     )
                 ]
