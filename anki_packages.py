@@ -158,7 +158,8 @@ def get_anki_packages(src_dir, out_dir):
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary', 'threshold'),
                             os.path.join(src_dir, 'data', 'lang', 'cmn', 'short-term-spoken', 'vocabulary', 'elementary'),
-                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian')
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'kan-qian'),
+                            os.path.join(src_dir, 'data', 'lang', 'cmn', 'wushuping-2008')
                         ]
                     )
                 ]
