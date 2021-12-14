@@ -251,7 +251,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'farsi.apkg'),
         deck = AnkiDeck(
                 id = 1599607598,
-                name = 'Language::Farsi',
+                name = 'Language::Persian::Farsi',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'fas', 'vocabulary', 'model.json'),
@@ -567,7 +567,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'tajiki.apkg'),
         deck = AnkiDeck(
                 id = 1690278087,
-                name = 'Language::Tajiki',
+                name = 'Language::Persian::Tajiki',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'tgk', 'vocabulary', 'model.json'),
@@ -585,14 +585,15 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'turkish.apkg'),
         deck = AnkiDeck(
                 id = 1547350583,
-                name = 'Language::Turkish',
+                name = 'Language::Turkic::Turkish',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'tur', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'tur', 'dudina-2005'),
-                            os.path.join(src_dir, 'data', 'lang', 'tur', 'guzev-2006')
+                            os.path.join(src_dir, 'data', 'lang', 'tur', 'guzev-2006'),
+                            os.path.join(src_dir, 'data', 'lang', 'tur', 'aylarov-1958')
                             # os.path.join(src_dir, 'data', 'lang', 'tur', 'tematyczny-9000')
                         ]
                     )
@@ -641,7 +642,7 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'uzbek.apkg'),
         deck = AnkiDeck(
                 id = 1257256040,
-                name = 'Language::Uzbek',
+                name = 'Language::Turkic::Uzbek',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'uzb', 'vocabulary', 'model.json'),
