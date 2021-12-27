@@ -593,7 +593,8 @@ def get_anki_packages(src_dir, out_dir):
                         data = [
                             os.path.join(src_dir, 'data', 'lang', 'tur', 'dudina-2005'),
                             os.path.join(src_dir, 'data', 'lang', 'tur', 'guzev-2006'),
-                            os.path.join(src_dir, 'data', 'lang', 'tur', 'aylarov-1958')
+                            os.path.join(src_dir, 'data', 'lang', 'tur', 'aylarov-1958'),
+                            os.path.join(src_dir, 'data', 'lang', 'tur', 'kabardin-2016')
                             # os.path.join(src_dir, 'data', 'lang', 'tur', 'tematyczny-9000')
                         ]
                     )
