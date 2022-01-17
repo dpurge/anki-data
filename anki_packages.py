@@ -289,13 +289,13 @@ def get_anki_packages(src_dir, out_dir):
         filename = os.path.join(out_dir, 'language', 'ancient-greek.apkg'),
         deck = AnkiDeck(
                 id = 2089318160,
-                name = 'Language::Ancient Greek',
+                name = 'Language::Ancient::Greek',
                 notes = [
                     AnkiNote(
                         model = os.path.join(src_dir, 'anki', 'lang', 'grc', 'vocabulary', 'model.json'),
                         template = os.path.join(src_dir, 'template', 'lang', 'vocabulary', 'config.json'),
                         data = [
-                            os.path.join(src_dir, 'data', 'lang', 'grc', '___', 'vocabulary')
+                            os.path.join(src_dir, 'data', 'lang', 'grc', 'new-testament-frequency')
                         ]
                     )
                 ]
